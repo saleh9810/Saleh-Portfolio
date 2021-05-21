@@ -1,6 +1,7 @@
 import React from 'react';
 import '../style/about.css'
 import {Link} from 'react-router-dom'
+import pdf from '../img/saleh.pdf'
 
  const About = () => {
     return (
@@ -12,7 +13,7 @@ import {Link} from 'react-router-dom'
                 <h2>About me</h2>
           <h5>Worked as a Front-End Developer with around 2 year of experience. Extensively worked developing Responsive Web Applications. Experience in developing web page effectively using HTML5 and CSS3 in making web pages cross-browser compatible. Experience in JavaScript, React JS .
             And Hands on experience with CSS optimization using SASS, and Bootstrap</h5>
-            <button className="btn mt-3"> Download My Cv</button>
+          <a href={pdf} download><button className="btn mt-3"> Download My Cv</button> </a>
             </div>
             <div className="Education">
             <h2>Education</h2>

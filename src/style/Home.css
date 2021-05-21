@@ -13,6 +13,14 @@
    transition: all 1s ease-in-out;
 }
 
+.home-content h1 {
+    font-size: 45px;
+}
+
+.home-content h3 {
+    font-size: 35px;
+}
+
 
 .home-content h3 span {
     color: rgb(45,136,255);
@@ -41,10 +49,10 @@
 
 @media only screen and (max-width: 600px)  {
     .home-content h1 {
-            font-size: 35px;
+            font-size: 45px;
      }
 
      .home-content h3 {
-        font-size: 25px;
+        font-size: 35px;
       }
 }
