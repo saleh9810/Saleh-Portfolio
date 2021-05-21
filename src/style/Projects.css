@@ -1,0 +1,101 @@
+.projects-section {
+    animation: projects 1s normal;
+    transition: all 1s ease-in-out;
+}
+.projects-section h2 {
+    color: #fff;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.pj {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.pj .project-card {
+
+    width: 300px;
+    margin: 30px;
+    text-align: center;
+    position: relative;
+    background-color: rgb(34, 33, 33);
+    border-radius: 15%;
+    
+}
+
+.pj .project-card img {
+    width: 90%;
+    height: 200px;
+    border-radius: 10%;
+    margin-top: 15px;
+
+}
+
+
+
+
+.pj .project-card p {
+ 
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 20px;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.582);
+    cursor: pointer;   
+    width: 80%;
+   
+}
+
+.pj .project-card img:hover + p {
+    
+    opacity: 1;
+
+   
+
+}
+
+
+
+
+.pj .project-card p:hover {
+ 
+    opacity: 1;
+   
+}
+
+.pj .project-card button {
+    margin: 10px;
+    color:#fff;
+    
+   
+}
+
+.pj .project-card button a {
+    color: #fff;
+}
+
+
+@keyframes projects {
+    0% {
+        transform: translatex(-900px);
+        opacity: 0;
+    }
+
+    80% {
+        transform: translatex(50px);
+        opacity: .6;
+
+    }
+
+    100% {
+        transform: translatex(0px);
+        opacity: 1;
+    }
+}
