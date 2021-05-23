@@ -43,12 +43,23 @@ const Projects = () => {
                     </div>
 
                     <div className="project-card">
-                    <a href="https://keen-archimedes-a22e79.netlify.app/" target="_blank">
+                    <a href="https://dazzling-franklin-7f0b01.netlify.app/" target="_blank">
                     <img alt="pj3" src={Pj3} />
-                    <p>Todo-List</p>
+                    <p>Reading List</p>
                     </a>
-                    <button className="btn btn-link"> <a href="https://github.com/saleh9810/todo-list.git" target="_blank"><i className="fab fa-github fa-2x"></i></a> </button>
-                    <button  className="btn btn-link"><a href="https://keen-archimedes-a22e79.netlify.app/" target="_blank"><i className="fas fa-eye fa-2x"></i></a></button>
+                    <button className="btn btn-link"> <a href="https://github.com/saleh9810/Reading-List.git" target="_blank"><i className="fab fa-github fa-2x"></i></a> </button>
+                    <button  className="btn btn-link"><a href="https://dazzling-franklin-7f0b01.netlify.app/" target="_blank"><i className="fas fa-eye fa-2x"></i></a></button>
+
+                    </div>
+
+                    <div className="project-card">
+                    <a href="https://nifty-goldstine-60a810.netlify.app/" target="_blank">
+                    <img alt="pj5" src={Pj5} />
+                    <p>Natours </p>
+                    </a>
+                    <button className="btn btn-link"> <a href="https://github.com/saleh9810/Natours.git" target="_blank"><i className="fab fa-github fa-2x"></i></a> </button>
+                    <button  className="btn btn-link"><a href="https://nifty-goldstine-60a810.netlify.app/" target="_blank"><i className="fas fa-eye fa-2x"></i></a></button>
+
 
                     </div>
 
@@ -63,16 +74,7 @@ const Projects = () => {
 
                     </div>
 
-                    <div className="project-card">
-                    <a href="https://nifty-goldstine-60a810.netlify.app/" target="_blank">
-                    <img alt="pj5" src={Pj5} />
-                    <p>Natours </p>
-                    </a>
-                    <button className="btn btn-link"> <a href="https://github.com/saleh9810/Natours.git" target="_blank"><i className="fab fa-github fa-2x"></i></a> </button>
-                    <button  className="btn btn-link"><a href="https://nifty-goldstine-60a810.netlify.app/" target="_blank"><i className="fas fa-eye fa-2x"></i></a></button>
-
-
-                    </div>
+                  
                  </div>  
                   </div>
 
