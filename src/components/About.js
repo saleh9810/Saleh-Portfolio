@@ -1,7 +1,7 @@
 import React from 'react';
 import '../style/about.css'
 import {Link} from 'react-router-dom'
-import pdf from '../img/saleh.pdf'
+import pdf from '../img/Saleh(front end Developer).pdf'
 
  const About = () => {
     return (
@@ -13,7 +13,7 @@ import pdf from '../img/saleh.pdf'
                 <h2>About me</h2>
           <h5>Worked as a Front-End Developer with around 2 year of experience. Extensively worked developing Responsive Web Applications. Experience in developing web page effectively using HTML5 and CSS3 in making web pages cross-browser compatible. Experience in JavaScript, React JS .
             And Hands on experience with CSS optimization using SASS, and Bootstrap</h5>
-          <a href={pdf} download><button className="btn mt-3"> Download My Cv</button> </a>
+          <a href={pdf} download><button className="btn mt-3"> Download My Resume</button> </a>
             </div>
             <div className="Education">
             <h2>Education</h2>
