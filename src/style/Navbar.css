@@ -29,6 +29,10 @@
 .navbarList a {
     color: #fff;
 }
+
+.navbarList a:hover {
+    text-decoration: none;
+}
 .navbarList .active {
     color: rgb(45,136,255);
    
