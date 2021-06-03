@@ -9,6 +9,12 @@
     color:#fff;
     
 }
+.about-section .about-me button {
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
 .about-section .Education  {
     margin-top: 50px;
     color: #fff;
