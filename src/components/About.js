@@ -1,7 +1,7 @@
 import React from 'react';
 import '../style/about.css'
 import {Link} from 'react-router-dom'
-import pdf from '../img/SalehFarag(front end Developer).pdf'
+import pdf from '../img/Saleh(front end Developer).pdf'
 
  const About = () => {
     return (
