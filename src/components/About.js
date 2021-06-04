@@ -11,8 +11,8 @@ import pdf from '../img/Saleh(front end Developer).pdf'
         <div className="col-lg-7">
           <div className="about-me">
                 <h2>About me</h2>
-          <h5>Work as a Front-End Developer with around two years of experience. Extensively work developing Responsive Web Applications. Experience in developing web pages effectively using HTML5 and CSS3 in making web pages cross-browser compatible. Experience in JavaScript, React JS. And Hands-on 
-          experience with CSS optimization using SASS, and Bootstrap</h5>
+          <h5>Worked as a Front-End Developer with around 2 years of experience. Extensively worked developing Responsive Web Applications. Experience in developing web pages effectively using HTML5 and CSS3 in making web pages cross-browser compatible. Experience in JavaScript, React JS.
+          And Hands-on experience with CSS optimization using SASS, and Bootstrap.</h5>
           <a href={pdf} download><button className="mt-3"> Download My Resume</button> </a>
             </div>
             <div className="Education">
