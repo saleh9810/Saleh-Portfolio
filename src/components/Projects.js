@@ -8,6 +8,8 @@ import Pj4 from '../img/pj4.png'
 import Pj5 from '../img/pj5.png'
 import Pj6 from '../img/pj6.png'
 import Pj7 from '../img/pj7.png'
+import Pj8 from '../img/pj8.png'
+
 
 
 
@@ -31,6 +33,16 @@ const Projects = () => {
                     </a>
                     <button className="btn btn-link"> <a href="https://github.com/saleh9810/e-commerce.git" target="_blank"><i className="fab fa-github fa-2x"></i></a> </button>
                     <button  className="btn btn-link"><a  href="https://frosty-visvesvaraya-c24130.netlify.app/" target="_blank" ><i className="fas fa-eye fa-2x"></i></a></button>
+
+                    </div>
+
+                    <div className="project-card">
+                    <a  href="https://nervous-kowalevski-03c91a.netlify.app/" target="_blank" >
+                    <img alt="pj8" src={Pj8} />
+                    <p>Weather APP</p>
+                    </a>
+                    <button className="btn btn-link"> <a href="https://github.com/saleh9810/weather-app.git" target="_blank"><i className="fab fa-github fa-2x"></i></a> </button>
+                    <button  className="btn btn-link"><a  href="https://nervous-kowalevski-03c91a.netlify.app/" target="_blank" ><i className="fas fa-eye fa-2x"></i></a></button>
 
                     </div>
 
