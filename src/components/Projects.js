@@ -1,18 +1,14 @@
 import React from 'react'
 import '../style/Projects.css'
 import {Link} from 'react-router-dom'
-import Pj1 from '../img/pj1.png'
-import Pj2 from '../img/pj2.png'
-import Pj3 from '../img/pj3.png'
-import Pj4 from '../img/pj4.png'
-import Pj5 from '../img/pj5.png'
-import Pj6 from '../img/pj6.png'
-import Pj7 from '../img/pj7.png'
-import Pj8 from '../img/pj8.png'
-
-
-
-
+import Pj1 from '../img/pj1.jpg'
+import Pj2 from '../img/pj2.jpg'
+import Pj3 from '../img/pj3.jpg'
+import Pj4 from '../img/pj4.jpg'
+import Pj5 from '../img/pj5.jpg'
+import Pj6 from '../img/pj6.jpg'
+import Pj7 from '../img/pj7.jpg'
+import Pj8 from '../img/pj8.jpg'
 
 
 
