@@ -1,14 +1,15 @@
 import React from "react";
 import "../style/Projects.css";
 import { Link } from "react-router-dom";
-import Pj1 from "../img/pj1.jpg";
+import Pj1 from "../img/pj1.png";
 import Pj2 from "../img/pj2.jpg";
 import Pj3 from "../img/pj3.jpg";
 import Pj4 from "../img/pj4.jpg";
 import Pj5 from "../img/pj5.jpg";
-import Pj6 from "../img/pj6.jpg";
 import Pj7 from "../img/pj7.jpg";
 import Pj8 from "../img/pj8.jpg";
+import Pj9 from "../img/pj9.png";
+
 
 const Projects = () => {
   return (
@@ -19,7 +20,7 @@ const Projects = () => {
           <div className="project-card">
             <div className="project-box">
               <a
-                href="https://frosty-visvesvaraya-c24130.netlify.app/"
+                href="https://shop-hazel-nine.vercel.app/"
                 target="_blank"
               >
                 <img alt="pj1" src={Pj1} />
@@ -37,7 +38,7 @@ const Projects = () => {
             </button>
             <button className="btn btn-link">
               <a
-                href="https://frosty-visvesvaraya-c24130.netlify.app/"
+                href="https://shop-hazel-nine.vercel.app/"
                 target="_blank"
               >
                 <i className="fas fa-eye fa-2x"></i>
@@ -48,11 +49,11 @@ const Projects = () => {
           <div className="project-card">
             <div className="project-box">
               <a
-                href="https://nervous-kowalevski-03c91a.netlify.app/"
+                href="https://newweather-app.vercel.app/"
                 target="_blank"
               >
                 <img alt="pj8" src={Pj8} />
-                <p>Weather APP</p>
+                <p>Weather App</p>
               </a>
             </div>
             <button className="btn btn-link">
@@ -66,7 +67,7 @@ const Projects = () => {
             </button>
             <button className="btn btn-link">
               <a
-                href="https://nervous-kowalevski-03c91a.netlify.app/"
+                href="https://newweather-app.vercel.app/"
                 target="_blank"
               >
                 <i className="fas fa-eye fa-2x"></i>
@@ -74,40 +75,13 @@ const Projects = () => {
             </button>
           </div>
 
-          <div className="project-card">
-            <div className="project-box">
-              <a
-                href="https://whatsapp-5y7oimm23-saleh9810.vercel.app/"
-                target="_blank"
-              >
-                <img alt="pj6" src={Pj6} />
-                <p>Whatsapp</p>
-              </a>
-            </div>
-            <button className="btn btn-link">
-              {" "}
-              <a
-                href="https://github.com/saleh9810/whatsapp.git"
-                target="_blank"
-              >
-                <i className="fab fa-github fa-2x"></i>
-              </a>{" "}
-            </button>
-            <button className="btn btn-link">
-              <a
-                href="https://whatsapp-5y7oimm23-saleh9810.vercel.app/"
-                target="_blank"
-              >
-                <i className="fas fa-eye fa-2x"></i>
-              </a>
-            </button>
-          </div>
+       
 
           <div className="project-card">
           <div className="project-box">
 
             <a
-              href="https://gifted-hypatia-cbf929.netlify.app/"
+              href="https://movies-app-kohl-three.vercel.app/"
               target="_blank"
             >
               <img alt="pj2" src={Pj2} />
@@ -125,7 +99,7 @@ const Projects = () => {
             </button>
             <button className="btn btn-link">
               <a
-                href="https://gifted-hypatia-cbf929.netlify.app/"
+                href="https://movies-app-kohl-three.vercel.app/"
                 target="_blank"
               >
                 <i className="fas fa-eye fa-2x"></i>
@@ -137,7 +111,38 @@ const Projects = () => {
           <div className="project-box">
 
             <a
-              href="https://dazzling-franklin-7f0b01.netlify.app/"
+              href="https://mcq-exam.vercel.app/"
+              target="_blank"
+            >
+              <img alt="pj2" src={Pj9} />
+              <p>MCQ App</p>
+            </a>
+            </div>
+            <button className="btn btn-link">
+              {" "}
+              <a
+                href="https://github.com/saleh9810/MCQ-exams"
+                target="_blank"
+              >
+                <i className="fab fa-github fa-2x"></i>
+              </a>{" "}
+            </button>
+            <button className="btn btn-link">
+              <a
+                href="https://mcq-exam.vercel.app/"
+                target="_blank"
+              >
+                <i className="fas fa-eye fa-2x"></i>
+              </a>
+            </button>
+          </div>
+
+
+          <div className="project-card">
+          <div className="project-box">
+
+            <a
+              href="https://reading-list-teal.vercel.app/"
               target="_blank"
             >
               <img alt="pj3" src={Pj3} />
@@ -155,7 +160,7 @@ const Projects = () => {
             </button>
             <button className="btn btn-link">
               <a
-                href="https://dazzling-franklin-7f0b01.netlify.app/"
+                href="https://reading-list-teal.vercel.app/"
                 target="_blank"
               >
                 <i className="fas fa-eye fa-2x"></i>
@@ -168,7 +173,9 @@ const Projects = () => {
 
             <a href="https://stoic-borg-3a225c.netlify.app/" target="_blank">
               <img alt="pj7" src={Pj7} />
+              <div className="p-box">
               <p>Food-Recipe-App</p>
+              </div>
             </a>
             </div>
             <button className="btn btn-link">
@@ -191,7 +198,7 @@ const Projects = () => {
           <div className="project-box">
 
             <a
-              href="https://nifty-goldstine-60a810.netlify.app/"
+              href="https://natours-eosin.vercel.app/"
               target="_blank"
             >
               <img alt="pj5" src={Pj5} />
@@ -209,7 +216,7 @@ const Projects = () => {
             </button>
             <button className="btn btn-link">
               <a
-                href="https://nifty-goldstine-60a810.netlify.app/"
+                href="https://natours-eosin.vercel.app/"
                 target="_blank"
               >
                 <i className="fas fa-eye fa-2x"></i>
@@ -220,7 +227,7 @@ const Projects = () => {
           <div className="project-card">
           <div className="project-box">
 
-            <a href="https://saleh-trillo.netlify.app/" target="_blank">
+            <a href="https://trillo-ecru.vercel.app/" target="_blank">
               <img alt="pj4" src={Pj4} />
               <p>Trillo</p>
             </a>
@@ -232,7 +239,7 @@ const Projects = () => {
               </a>{" "}
             </button>
             <button className="btn btn-link">
-              <a href="https://saleh-trillo.netlify.app/" target="_blank">
+              <a href="https://trillo-ecru.vercel.app/" target="_blank">
                 <i className="fas fa-eye fa-2x"></i>
               </a>
             </button>

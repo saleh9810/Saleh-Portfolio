@@ -48,13 +48,21 @@
 .pj .project-card p {
  
     position: absolute;
-    top: 40%;
+    top: 0;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, 0%);
     color: #fff;
+    font-weight: bold;
     font-size: 20px;
+    border-radius: 10%;
+    padding-top: 5rem;
     opacity: 0;
     cursor: pointer;  
+    background-color: rgba(0, 0, 0, 0.719);
+    width: 90%;
+    height: 93%;
+    margin-top: 5%;
+    transition: all 0.3s ease-in-out;
   
    
 }
