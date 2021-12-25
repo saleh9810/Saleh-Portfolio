@@ -33,10 +33,9 @@ import pdf from '../img/SalehFarag.pdf'
             <li><i className="fab fa-sass fa-3x sass"></i></li>
             <li><i className="fab fa-js fa-3x js"></i> </li>
             <li><i className="fab fa-react fa-3x react"></i></li>
-            <li><i class="fab fa-vuejs fa-3x vue"></i></li>   
-            <li><i class="fab fa-angular fa-3x angular"></i></li>   
+            <li><i className="fab fa-vuejs fa-3x vue"></i></li>   
             <li><i className="fab fa-github fa-3x github"></i></li>    
-            <li><i class="fab fa-bitbucket fa-3x bitbucket"></i></li>       
+            <li><i className="fab fa-bitbucket fa-3x bitbucket"></i></li>       
    
             </ul>
             </div>
@@ -50,7 +49,7 @@ import pdf from '../img/SalehFarag.pdf'
 
         <div className="arrows">
             <div className="left-arrow">
-                <Link to="/">   <i class="fas fa-arrow-left"></i> </Link>
+                <Link to="/">   <i className="fas fa-arrow-left"></i> </Link>
             </div>
 
             <div className="right-arrow">
