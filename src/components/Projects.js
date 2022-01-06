@@ -11,10 +11,22 @@ import Pj8 from "../img/pj8.jpg";
 import Pj9 from "../img/pj9.png";
 import Pj10 from "../img/pj10.png";
 import Pj11 from "../img/pj11.png";
+import Pj12 from "../img/pj12.jpg";
+import Pj13 from "../img/pj13.jpg";
+
+
 
 
 const Projects = () => {
   const [projects, useProjects] = useState([
+    {
+      id: 4,
+      website: 'https://mcq-exam.vercel.app/',
+      github: 'https://github.com/saleh9810/MCQ-exams',
+      img: Pj9,
+      title: 'MCQ App',
+      type: 'React',
+    },
     {
       id: 1,
       website: 'https://shop-hazel-nine.vercel.app/',
@@ -39,14 +51,7 @@ const Projects = () => {
       title: 'Movies-App',
       type: 'React',
     },
-    {
-      id: 4,
-      website: 'https://mcq-exam.vercel.app/',
-      github: 'https://github.com/saleh9810/MCQ-exams',
-      img: Pj9,
-      title: 'MCQ App',
-      type: 'React',
-    },
+ 
     {
       id: 5,
       website: 'https://reading-list-teal.vercel.app/',
@@ -61,6 +66,22 @@ const Projects = () => {
       github: 'https://github.com/saleh9810/Food-Recipe-App.git',
       img: Pj7,
       title: 'Food-Recipe-App',
+      type: 'JS',
+    },
+    {
+      id: 11,
+      website: 'https://todo-js-eight.vercel.app/',
+      github: 'https://github.com/saleh9810/JS-TODO',
+      img: Pj12,
+      title: 'Todo-list',
+      type: 'JS',
+    },
+    {
+      id: 12,
+      website: 'https://counter-js-sigma.vercel.app/',
+      github: 'https://github.com/saleh9810/counter-JS',
+      img: Pj13,
+      title: 'Counter',
       type: 'JS',
     },
     {
